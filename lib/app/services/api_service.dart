@@ -12,7 +12,7 @@ class ApiService {
   ApiService()
       : _dio = Dio(
           BaseOptions(
-            baseUrl: 'https://egofinance-egofinance-be.pidagt.easypanel.host',
+            baseUrl: 'https://payboss-be.pidagt.easypanel.host',
             connectTimeout: const Duration(seconds: 5),
             receiveTimeout: const Duration(seconds: 3),
             sendTimeout: const Duration(seconds: 3),
