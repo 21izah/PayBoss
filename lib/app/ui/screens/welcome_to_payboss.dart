@@ -4,14 +4,14 @@ import 'package:get/get.dart';
 import '../../utils/constants/data_constant.dart';
 import 'bottomNavigation.dart';
 
-class WelcomeToEgofinance extends StatefulWidget {
-  const WelcomeToEgofinance({super.key});
+class WelcomeToPayboss extends StatefulWidget {
+  const WelcomeToPayboss({super.key});
 
   @override
-  State<WelcomeToEgofinance> createState() => _WelcomeToEgofinanceState();
+  State<WelcomeToPayboss> createState() => _WelcomeToPaybossState();
 }
 
-class _WelcomeToEgofinanceState extends State<WelcomeToEgofinance> {
+class _WelcomeToPaybossState extends State<WelcomeToPayboss> {
   @override
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
@@ -82,7 +82,7 @@ class _WelcomeToEgofinanceState extends State<WelcomeToEgofinance> {
                         padding: const EdgeInsets.only(top: 20.0),
                         child: w700_27(
                           context,
-                          'Welcome to EgoFinance',
+                          'Welcome to Payboss',
                           whiteColor,
                         ),
                       ),
