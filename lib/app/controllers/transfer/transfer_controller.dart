@@ -74,7 +74,7 @@ class TransferController extends GetxController {
   ) async {
     // API endpoint URL
     final url = Uri.parse(
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/finances/send-money');
+        'https://payboss-be.pidagt.easypanel.host/finances/send-money');
 
     // Request body
     final requestBody = {
@@ -138,7 +138,7 @@ class TransferController extends GetxController {
   //   // Function(String message) showErrorMessage,
   // ) async {
   //   final url = Uri.parse(
-  //       'https://egofinance-egofinance-be.pidagt.easypanel.host/finances/${accountNumber}/verify-wallet');
+  //       'https://payboss-be.pidagt.easypanel.host/finances/${accountNumber}/verify-wallet');
 
   //   final headers = {
   //     'Content-Type': 'application/json',
@@ -229,7 +229,7 @@ class TransferController extends GetxController {
     String accountNumber,
   ) async {
     final url = Uri.parse(
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/finances/${accountNumber}/verify-wallet');
+        'https://payboss-be.pidagt.easypanel.host/finances/${accountNumber}/verify-wallet');
 
     final headers = {
       'Content-Type': 'application/json',
@@ -280,7 +280,7 @@ class TransferController extends GetxController {
     String accountNumber,
   ) async {
     final url = Uri.parse(
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/finances/${accountNumber}/verify-wallet');
+        'https://payboss-be.pidagt.easypanel.host/finances/${accountNumber}/verify-wallet');
 
     final headers = {
       'Content-Type': 'application/json',
