@@ -15,7 +15,7 @@ class UpdateUserDetailsController extends GetxController {
 
   Future<void> fetchUserData() async {
     final url = Uri.parse(
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/users/${box.read('id')}');
+        'https://payboss-be.pidagt.easypanel.host/users/${box.read('id')}');
     final headers = {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer ${box.read('BearerToken')}'
@@ -45,7 +45,7 @@ class UpdateUserDetailsController extends GetxController {
   ) async {
     // API endpoint URL
     final url = Uri.parse(
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/users/${box.read('id')}');
+        'https://payboss-be.pidagt.easypanel.host/users/${box.read('id')}');
 
     // Request body
     final requestBody = {
