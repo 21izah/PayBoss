@@ -3,14 +3,14 @@ import 'package:get/get.dart';
 
 import '../../utils/constants/data_constant.dart';
 
-class AboutEgofinanceScreen extends StatefulWidget {
-  const AboutEgofinanceScreen({super.key});
+class AboutPaybossScreen extends StatefulWidget {
+  const AboutPaybossScreen({super.key});
 
   @override
-  State<AboutEgofinanceScreen> createState() => _AboutEgofinanceScreenState();
+  State<AboutPaybossScreen> createState() => _AboutPaybossScreenState();
 }
 
-class _AboutEgofinanceScreenState extends State<AboutEgofinanceScreen> {
+class _AboutPaybossScreenState extends State<AboutPaybossScreen> {
   @override
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
