@@ -21,7 +21,7 @@ class ChangePasswordController extends GetxController {
   ) async {
     // API endpoint URL
     final url =
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/user/auth/change-password';
+        'https://payboss-be.pidagt.easypanel.host/user/auth/change-password';
 
     // Request body
     final requestBody = {
