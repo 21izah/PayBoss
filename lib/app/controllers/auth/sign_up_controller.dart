@@ -23,7 +23,7 @@ class RegisterController extends GetxController {
     Function() navigateToNextPage,
   ) async {
     final url =
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/user/auth/signup';
+        'https://payboss-be.pidagt.easypanel.host/user/auth/signup';
 
     final requestBody = {
       "fullName": fullName,
