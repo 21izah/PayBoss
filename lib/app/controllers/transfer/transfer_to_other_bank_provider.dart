@@ -107,7 +107,7 @@ class TransferToOtherBankController extends GetxController {
   ) async {
     // API endpoint URL
     final url = Uri.parse(
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/transfers/initiate-transfer');
+        'https://payboss-be.pidagt.easypanel.host/transfers/initiate-transfer');
 
     // Request body
     final requestBody = {
@@ -183,7 +183,7 @@ class TransferToOtherBankController extends GetxController {
   ) async {
     // API endpoint URL
     final url = Uri.parse(
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/transfers/create-recipient');
+        'https://payboss-be.pidagt.easypanel.host/transfers/create-recipient');
 
     // Request body
     final requestBody = {"bankCode": bankCode, "accountNumber": accountNumber};
@@ -261,7 +261,7 @@ class TransferToOtherBankController extends GetxController {
 
   Future<void> getAllBanks() async {
     final url = Uri.parse(
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/transfers/banks');
+        'https://payboss-be.pidagt.easypanel.host/transfers/banks');
 
     final headers = {
       'Content-Type': 'application/json',
