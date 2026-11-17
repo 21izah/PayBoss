@@ -21,7 +21,7 @@ class ResetPasswordController extends GetxController {
   ) async {
     // API endpoint URL
     final url =
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/user/auth/password-reset/reset';
+        'https://payboss-be.pidagt.easypanel.host/user/auth/password-reset/reset';
 
     // Request body
     final requestBody = {
