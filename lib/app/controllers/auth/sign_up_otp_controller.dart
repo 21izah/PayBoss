@@ -19,7 +19,7 @@ class RegistrationOtpController extends GetxController {
   ) async {
     // API endpoint URL
     final url =
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/user/auth/verify-identifier';
+        'https://payboss-be.pidagt.easypanel.host/user/auth/verify-identifier';
 
     // Request body
     final requestBody = {
