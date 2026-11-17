@@ -25,7 +25,7 @@ class LoginController extends GetxController {
   Future<void> fetchUserAccountData() async {
     print('account api called');
     final url = Uri.parse(
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/users/authenticated/user');
+        'https://payboss-be.pidagt.easypanel.host/users/authenticated/user');
     final headers = {
       'Content-Type': 'application/json',
       'Authorization':
@@ -91,7 +91,7 @@ class LoginController extends GetxController {
     // Function() navigateToNextPage,
   ) async {
     final url =
-        'https://egofinance-egofinance-be.pidagt.easypanel.host/user/auth/login';
+        'https://payboss-be.pidagt.easypanel.host/user/auth/login';
     final requestBody = {
       "username": username,
       "password": password,
