@@ -3,16 +3,16 @@ import 'package:get/get.dart';
 
 import '../../utils/constants/data_constant.dart';
 
-class FbEgofinanceFaceRecognitionScreen extends StatefulWidget {
-  const FbEgofinanceFaceRecognitionScreen({super.key});
+class FbPaybosseFaceRecognitionScreen extends StatefulWidget {
+  const FbPaybossFaceRecognitionScreen({super.key});
 
   @override
-  State<FbEgofinanceFaceRecognitionScreen> createState() =>
-      _FbEgofinanceFaceRecognitionScreenState();
+  State<FbPaybossFaceRecognitionScreen> createState() =>
+      _FbPaybossFaceRecognitionScreenState();
 }
 
-class _FbEgofinanceFaceRecognitionScreenState
-    extends State<FbEgofinanceFaceRecognitionScreen> {
+class _FbPaybossFaceRecognitionScreenState
+    extends State<FbPaybossFaceRecognitionScreen> {
   @override
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
